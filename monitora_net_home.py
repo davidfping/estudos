@@ -36,7 +36,7 @@ def PingLatencia(host):
         return ' '
 
 
-VPN = ' 10.10.20.80 '
+VPN = str(imput('Digite o IP da VPN: ')
 Net = ' google.com.br '
 Netsaida = colorama.Fore.YELLOW + 'Internet:'
 VPNsaida = colorama.Fore.YELLOW + 'VPN:'
